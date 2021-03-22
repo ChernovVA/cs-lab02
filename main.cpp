@@ -18,5 +18,12 @@ int main()
     else
     {
         cout << "Max= " << b << '\n';
+    if(a<b)
+    {
+        cout << "Min= " << a << '\n';
+    }
+    else
+    {
+        cout << "Min= " << b << '\n';
     }
 }
